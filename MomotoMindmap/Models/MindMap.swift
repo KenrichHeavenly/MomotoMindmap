@@ -13,12 +13,14 @@ struct MindMap: Identifiable, Codable, Hashable {
     var root: MindMapNode;
     var rawText: String;
     var createdAt: Date;
+    var source: String;
     
-    init(id: UUID, title: String, root: MindMapNode, rawText: String, createdAt: Date) {
+    init(id: UUID, title: String, root: MindMapNode, rawText: String, createdAt: Date, source: String) {
         self.id = id
         self.title = title
         self.root = root
         self.rawText = rawText
         self.createdAt = createdAt
+        self.source = source
     }
 }
