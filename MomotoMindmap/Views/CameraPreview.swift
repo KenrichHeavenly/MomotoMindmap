@@ -3,7 +3,7 @@ import SwiftUI
 
   struct CameraPreview: UIViewRepresentable {
       let session: AVCaptureSession
-                                                                                                                       
+      
       func makeUIView(context: Context) -> PreviewView {
           let view = PreviewView()
           view.videoPreviewLayer.session = session
