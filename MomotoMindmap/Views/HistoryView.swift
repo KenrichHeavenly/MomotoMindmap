@@ -179,14 +179,16 @@ struct HistoryView: View {
             title: "Dessert recipes analysis",
             root: MindMapNode(title: "Dessert"),
             rawText: "",
-            createdAt: .now
+            createdAt: .now,
+            source: ""
         ),
         MindMap(
             id: UUID(),
             title: "Debug session notes",
             root: MindMapNode(title: "Debug"),
             rawText: "",
-            createdAt: .now
+            createdAt: .now,
+            source: ""
         )
     ]
     
