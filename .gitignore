@@ -1,0 +1,11 @@
+//
+//  .gitignore
+//  MomotoMindmap
+//
+//  Created by Kezia Meilany Tandapai on 04/05/26.
+//
+
+DerivedData/
+*.xcuserstate
+*.xcworkspace
+xcuserdata/

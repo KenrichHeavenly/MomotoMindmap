@@ -11,7 +11,8 @@ import SwiftUI
 struct MomotoMindmapApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            // ContentView()
+            MindMapView() // TODO: ganti balik ke ContentView() setelah selesai testing
         }
     }
 }
