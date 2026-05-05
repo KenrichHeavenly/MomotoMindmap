@@ -10,13 +10,15 @@ import Foundation
 struct MindMapNode: Identifiable, Codable, Hashable {
     let id: UUID;
     var title: String
+    var symbol: String
     var summary: String?
     var children: [MindMapNode]
     var isExpanded: Bool
     
-    init(id: UUID = UUID(), title: String = "", summary: String = "", children: [MindMapNode] = [], isExpanded: Bool = false) {
+    init(id: UUID = UUID(), title: String = "", symbol: String = "", summary: String = "", children: [MindMapNode] = [], isExpanded: Bool = false) {
         self.id = id
         self.title = title
+        self.symbol = symbol
         self.summary = summary
         self.children = children
         self.isExpanded = isExpanded
