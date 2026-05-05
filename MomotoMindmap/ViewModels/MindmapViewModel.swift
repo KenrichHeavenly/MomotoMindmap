@@ -95,7 +95,7 @@ class MindmapViewModel: ObservableObject {
             title: "Fotosintesis",
             root: root,
             rawText: "Fotosintesis adalah proses tumbuhan mengubah cahaya matahari...",
-            createdAt: Date()
+            createdAt: Date(), source: "Dummy Data"
         )
     }
 }
