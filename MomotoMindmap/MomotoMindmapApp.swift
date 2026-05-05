@@ -9,10 +9,12 @@ import SwiftUI
 
 @main
 struct MomotoMindmapApp: App {
+    @StateObject private var appState = AppState()
+
     var body: some Scene {
         WindowGroup {
-            // ContentView()
-            MindMapView() // TODO: ganti balik ke ContentView() setelah selesai testing
+            ContentView()
+                .environmentObject(appState)
         }
     }
 }
